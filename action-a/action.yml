@@ -2,9 +2,7 @@ name: "Proselint Actions"
 description: "run proselint"
 author: "siggathh@github.com"
 
-runs:
-  using: "docker"
-  image: "Dockerfile"
+run: proselint daemi-github-actions/*.md
 
 branding:
   icon: "mic"
