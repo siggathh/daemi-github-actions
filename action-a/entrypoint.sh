@@ -1,5 +1,3 @@
-#!/bin/sh -l
-sudo add-apt-repository universe
-sudo apt install python3-proselint
+#!/bin/sh 
 
-proselint ./*.md
+echo hallo
