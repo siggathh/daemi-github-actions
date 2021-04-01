@@ -2,7 +2,7 @@ name: "Proselint Actions"
 description: "run proselint"
 author: "siggathh@github.com"
 
-run: proselint daemi-github-actions/*.md
+runs: proselint daemi-github-actions/*.md
 
 branding:
   icon: "mic"
